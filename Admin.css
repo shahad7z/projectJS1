@@ -1,0 +1,82 @@
+
+body{
+
+    background-color: rgb(233, 211, 179);
+    width: 100%;
+    }
+    
+  
+    span{
+        color: brown;
+    }
+
+    header h4{
+        font-family:fantasy;
+        text-align: center;
+    }
+    
+    .container{
+        margin: auto;
+        background-color: blanchedalmond;
+        padding: 10px;
+        width:1500;
+    }
+    
+  
+    
+     ul  li{
+        list-style-type: none;
+       
+        width: 200px;
+        right: 100px;;
+    }
+
+    .Admin div{
+      align-items:center;
+    text-align:center;
+    right: 200px;;
+    }
+    
+   
+    button a:hover{
+        color: black;
+    }
+    
+    
+    
+    .header-container{
+        background-color: burlywood;
+        color: rgb(22, 32, 32);
+        text-align:center;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    .header-container nav{
+        text-align:right;
+    }
+    
+    #Content{
+       
+        color: rgb(70, 71, 55);
+        min-height: 500px;
+        padding: 5px 2%;
+        float:right;
+    }
+    
+ 
+    .footer-container{
+        background-color:  rgb(71, 73, 67);
+        color: cornsilk;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    
+    
+      
+      
+      
+      
+      
+    
+    

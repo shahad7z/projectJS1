@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page </title>
+    <link rel="stylesheet" href="Admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+<div class="header-container">
+    <header>
+<h1>Kitchen story</h1>
+<nav>
+   <h4 id="WelcomeMass"></h4>
+   <button type="button" class="btn-danger" onclick="Logout()">Logout </button>
+</nav>
+    </header>
+</div>
+   
+
+ 
+<input type="text" id="AddItem" placeholder="Enter New Item Here "/>
+ <button type="button" onclick="newItem()">Add</button>
+
+
+ <ul id ='UL'>
+
+ <li>Honey &nbsp;</li> 
+ <li>Spices &nbsp;</li>
+ <li>pepper &nbsp;</li>
+ <li>Lemon &nbsp;</li>
+ <li>sauces &nbsp;</li>
+ <li>pomegranate &nbsp;</li>
+ 
+ </ul>
+<button type="button" id="button" onclick="removeAll()">Clear Items</button>
+
+
+
+<div class="footer-container">
+    <footer><div>(c) Copyright 2021 </div></footer>
+</div>
+
+</div>
+    </div>
+    <script src="/scriptAdmin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
